@@ -1,0 +1,39 @@
+<view class="container">
+  <view class="section">
+    <view class="visaLabel">签证打分</view>
+    <picker bindchange="bindvisaPickerChange" value="{{index}}" range="{{visaType}}" class="picker">
+        <view class="picker">
+            <view class="pickerlabel">当前选择签证类型</view>
+            <view class="picker">：{{visaType[index]}}</view>
+        </view>
+    </picker>
+        <view class="sliderView">
+            <view class="pickerlabel">年龄</view>
+            <view class="sliderValue">
+            <slider class = "sliderbar" bindchange="slider1change" left-icon="cancel" right-icon="success_no_circle" show-value  step="1"  min="18" max="45"/>
+            </view>
+        </view>
+        <view class="sliderView">
+            <view class="pickerlabel">雅思</view>
+            <view class="sliderValue"><slider bindchange="slider1change" left-icon="cancel" right-icon="success_no_circle" show-value  step="1"  min="6" max="8"/></view>
+        </view>
+        <view class="sliderView">
+            <view class="pickerlabel">境外工龄</view>
+            <view class="sliderValue"><slider bindchange="slider1change" left-icon="cancel" right-icon="success_no_circle" show-value  step="1"  min="0" max="8"/></view>
+        </view>
+        <view class="sliderView">
+            <view class="pickerlabel">境内工龄</view>
+            <view class="sliderValue"><slider bindchange="slider1change" left-icon="cancel" right-icon="success_no_circle" show-value  step="1"  min="0" max="8"/></view>
+        </view>
+    <picker bindchange="bindcertificatePickerChange" value="{{index}}" range="{{certificate}}" class="picker">
+        <view class="picker">
+            <view class="pickerlabel">学历</view>
+            <view class="picker">：{{certificate[index]}}</view>
+        </view>
+    </picker>
+  <view class="viewResult">
+    <text class="textResult">this is result</text>
+  </view>
+</view>
+
+</view>

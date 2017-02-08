@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/travel/travel",
+    "pages/skilled/skilled",
+    "pages/business/business",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "乐途澳洲签证百科",
+    "backgroundColor": "#eeeeee",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "backgroundColor": "#eeeeee",
+    "color": "#000000",
+    "selectedColor": "#18AD19",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"pages/icon/lt.png",
+      "selectedIconPath":"pages/icon/lt.png"
+    }, {
+      "pagePath": "pages/travel/travel",
+      "text": "旅游签证",
+      "iconPath":"pages/icon/travel.png",
+      "selectedIconPath":"pages/icon/travel.png"
+    }, {
+      "pagePath": "pages/skilled/skilled",
+      "text": "技术工作",
+      "iconPath":"pages/icon/visa.png",
+      "selectedIconPath":"pages/icon/visa.png"
+    }, {
+      "pagePath": "pages/business/business",
+      "text": "商业投资",
+      "iconPath":"pages/icon/business.png",
+      "selectedIconPath":"pages/icon/business.png"
+    }]
+  }
+}
