@@ -1,4 +1,5 @@
 /**skilled.wxss**/
+
 .container{
   height: 100%;
   display: flex;
@@ -25,9 +26,9 @@
   flex-direction: row;
   align-items:center;
   justify-content: center;
-  background-color: dodgerblue;
-  width: 100%;
-
+  background-color: #dddddd;
+  font-size: 24px;
+  padding: 10rpx 10rpx 10rpx 10rpx;
 }
 
 .sliderValue{
@@ -41,7 +42,7 @@
 
 .sliderView{
   display:flex;
-  width: 100%;
+
   justify-content: space-between;
   
 }
@@ -52,10 +53,20 @@
   width: 100%;
   height: 100%;
   justify-content: center;
-  background-color: blue;
+  background-color: #dddddd;
   align-items: center;
+  margin: 5rpx 5rpx 5rpx 5rpx;
 }
 
 .textResult{
   color: red;
+}
+
+.checkbox{
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonFull{
+  width: 100%;
 }
