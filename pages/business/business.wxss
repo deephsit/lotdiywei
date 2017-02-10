@@ -1,21 +1,70 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/**skilled.wxss**/
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20rpx 0;
+    box-sizing: border-box;
+    background-color: #eeeeee;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.picker {
+    display: flex;
+    flex-direction: row;
 }
 
-.usermotto {
-  margin-top: 200px;
+.visaLabel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #dddddd;
+    font-size: 24px;
+    padding: 10rpx 10rpx 10rpx 10rpx;
+}
+
+.sliderValue {
+    width: 70%;
+}
+
+.sliderbar {
+    align-items: flex-end;
+}
+
+.sliderView {
+    display: flex;
+    justify-content: space-between;
+}
+
+.viewResult {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-color: #dddddd;
+    align-items: center;
+    margin: 5rpx 5rpx 5rpx 5rpx;
+}
+
+.textResult {
+    color: red;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonFull {
+    width: 100%;
 }

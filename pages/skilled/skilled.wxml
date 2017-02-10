@@ -38,16 +38,15 @@
             </view>
         </picker>
         <view class="pickerlabel">附加分数</view>
-    <checkbox-group bindchange="checkboxChange">
-        <label class="checkbox" wx:for="{{extraPoint}}">
+        <checkbox-group bindchange="checkboxChange">
+            <label class="checkbox" wx:for="{{extraPoint}}">
             <checkbox id='{{item.name}}' value="{{item.value}}" checked="{{item.checked}}" class="checkbox"/>{{item.name}}
         </label>
-    </checkbox-group>
-    <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
-        disabled="{{disabled}}" bindtap="primary" class="buttonFull">计算分数</button>
-  <view class="viewResult ">
-    <text class="textResult ">{{resultPoint}}</text>
-  </view>
-</view>
+        </checkbox-group>
+        <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="primary" class="buttonFull" bindtap="calculate">计算分数</button>
+        <view class="viewResult ">
+            <text class="textResult ">{{resultPoint}}</text>
+        </view>
+    </view>
 
 </view>

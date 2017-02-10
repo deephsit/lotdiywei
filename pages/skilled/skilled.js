@@ -44,6 +44,14 @@ Page({
             index: e.detail.value
         })
     },
+    calculate: function(e) {
+        var pointTemp = '0';
+        if (isNaN(resultTemp)) {
+            console.log("not a valid number");
+        } else {
+            console.log(pointTemp);
+        }
+    },
     bindcertificatePickerChange: function(e) {
         var certificatePoint;
         switch (e.detail.value) {
