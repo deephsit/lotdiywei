@@ -87,8 +87,8 @@ Page({
 
     onShareAppMessage: function() {
         return {
-            title: '这是我的移民澳洲分数',
-            desc: '我的分数是xxxxx，可以技术移民啦',
+            title: '这是我的商业移民澳洲分数',
+            desc: '我的分数是xxxxx，可以商业投资移民啦',
             path: '/page/skilled/skilled'
         }
     }
